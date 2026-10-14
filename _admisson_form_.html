@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .info{background-color: rgb(57, 147, 111);margin-top: 20px;}
+</style>
+<body>
+    <header><img src="https://th.bing.com/th/id/OIP.o-85GeiCuO1ZLEdTsCpHygHaDV?w=343&h=157&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="kiet" height="150">
+</header>
+<nav>
+    <a href="https://www.kiet.edu/">Home</a>
+    <a href="https://www.kiet.edu/#">About</a>
+    <a href="https://www.kiet.edu/contact-us/">Contact</a>
+</nav>
+    <form style="color:rgba(146, 21, 21, 0.844) ; margin: 5px;">  
+        <main>
+    <Fieldset id="ADMISSION_FORM">
+        <legend> <h2 class="imp" >ADMISSION FORM</h2> </legend>
+        <fieldset class="info"> 
+            <legend><h3>PERSONAL INFORMATION</h3></legend>
+            <label for="first name">first name :-</label>
+            <input type="text" id="first name" name="name" placeholder="Enter your first name"><br><br>
+            <label for="last name">last name :-</label>
+            <input type="text" id="last name" name="name" placeholder="Enter your last name">
+            <br>
+            <br>
+            <label>Gender :-</label>
+            <br><input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="female">female<br><br>
+        <label for="DOB" >Date of birth :-</label>
+        <input type="date" id="DOB" ><br><br>
+        <label for="POB">Place of birth :-</label>
+        <input type="text" id="POB" name="POB" placeholder="Enter place of birth"><br><br>
+        <label for="rligion">Religion :-</label>
+        <select id="religion" name="religion">
+        <option value="HINDU">HINDU</option>
+        <option value="MUSLIM">MUSLIM</option>
+        <option value="SIKH">SIKH</option>
+        <option value="CHRISTEN">CHRISTEN</option>
+        </select><br><br>
+        <label for="Country">Nationality :-</label>
+        <input type="text" id="Nationality" name="Nationality" placeholder="Enter your Nationality"><br><br>
+        <label for="AADHAR">Aadhar no:-</label>
+        <input type="text" id="AADHAR" name="AADHAR" placeholder="Enter your Aadhar number"><br><br>
+        </fieldset>
+        <fieldset class="info">
+            <legend><h3>Contact information</h3></legend>
+            <label for="EMAIL">Personal email :-</label>
+            <input type="email" id="EMAIL" name="EMAIL" placeholder="Enter your email"><br><br>
+            <label for="EMAIL">Confirm Personal email :-</label>
+            <input type="email" id="EMAIL" name="EMAIL" placeholder="Confirm your email"><br><br>
+            <label for="Phone_no">Enter your Phone no. :-</label>
+            <input type="tel" id="Phone_no" name="Phone_no" placeholder="Enter your Phone no."><br><br>
+            <label for="Phone_no">Confirm your Phone no. :-</label>
+            <input type="tel" id="Phone_no" name="Phone_no" placeholder="Confirm your Phone no.">
+        </fieldset>
+        <fieldset class="info">
+            <legend><h3>Parents/guardian information</h3></legend>
+            <label for="Father name">Father name :-</label>
+            <input type="text" id="Father name" name="name" placeholder="Enter your Father name"><br><br>
+            <label for="Father occupation">father occupation :-</label>
+            <input type="text" id="Father occupation" placeholder="Enter your father occupation"><br><br>
+            <label for="Mother name">Mother name :-</label>
+            <input type="text" id="Mother name" name="name" placeholder="Enter your Mother name"><br><br>
+            <label for="Mother occupation">Mother occupation :-</label>
+            <input type="text" id="Father occupation" placeholder="Enter your Mother occupation"><br><br>
+            <label for="Parents Phone_no">Parents Phone no :-</label>
+            <input type="tel" id="Parents Phone_no" placeholder="Enter your parents phone no"><br><br>
+        </fieldset>
+        <fieldset class="info">
+            <legend><h3>Qualification details</h3></legend>
+            <label for="Highschool">High school name :-</label>
+            <input type="text" id="Highschool" placeholder="Enter your Highschool name"><br><br>
+            <label for="HighschoolDate">High school Graduation Date :-</label>
+            <input type="date" id="HighschoolDate" placeholder="Graduation date"> <br> <br>
+            <label for="Highschooladd">High school address :-</label>
+            <input type="text" id="Highschooladd" placeholder="Enter your Highschool address"><br>
+            <h5>Enter marks in Inter (out of 100)</h5>
+            <label for="Maths">Mathematics score :-</label>   
+            <input type="number" id="Maths" placeholder="Mathematics score"><br><br>
+            <label for="Chemistry">Chemistry score :-</label>   
+            <input type="number" id="Chemistry" placeholder="Chemistry score"><br><br>
+            <label for="Physics">Physics score :-</label>   
+            <input type="number" id="Physics" placeholder="Physics score"><br><br>
+            <label for="CS">Computer science score (if not selected let it empty) :-</label>   
+            <input type="number" id="Computer science" placeholder="Computer science score"><br><br>
+        </fieldset>
+        <fieldset class="info">
+            <legend><h3>Applying for</h3></legend>
+            <label for="course">course :-</label>
+            <select id="course" name="course">
+            <option value="B.tech">B.tech</option>
+            <option value="B.Pharma">B.Pharma</option>
+            <option value="M.Pharma">M.Pharma</option>
+            <option value="MCA">MCA</option>
+            <option value="M.tech">M.tech</option>
+            <option value="MBA">MBA</option>
+        </select><br><br>
+        </fieldset>
+    </Fieldset>
+    </main>  
+    <button onclick="alert('submit hogya')">Submit</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
