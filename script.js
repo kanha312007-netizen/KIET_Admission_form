@@ -1,4 +1,4 @@
-alert('WELCOME TO KIET ;)') ;
+test();
 let name = "Divyansh" ;
 var age = 20 ;
 const pi = 3.14 ;
@@ -16,9 +16,15 @@ let x= 10 , y=2 ;
 console .log(" x > 0 &&  y > 0 :- " ,  x > 0 &&  y > 0 ) ;
 console.log(" x==10 && y!=0 :- " , x==10 && y!=0 ) ;
 if (age >= 18){
-    console.log("vote de le lala !");
+    console.log("you can vote");
 }
 else {
-    console.log("bacha he tu bada hoja pahle : ))")
+    console.log("you are underage!")
 }
- 
+function test() {
+    alert('Welcome ')
+}
+function pr_nt() {
+    console.log("sum of 1677 + 1892 :  " , 1677 + 1892)
+}
+pr_nt() 
